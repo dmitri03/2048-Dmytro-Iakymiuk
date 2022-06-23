@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  height:849px;
+  background-image: url("assets/tree-bark.png");
+  background-color:#004a49 ;
+}
+h1,h2{
+  text-align:center;
+  margin-bottom: 5px;
+  margin-top:10px;
+  /* font-family:'Press Start 2P', cursive; */
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 58px;
+  color:white;
+}
+#info{             
+  padding:5px 10px;
+  background:transparent; 
+  margin: -28px 8px;
+  width:130px;
+  color: white;
+  /* font-family: 'Play', sans-serif; */
+  /* font-family: 'Press Start 2P', cursive; */
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 28px;
+  float:right;
+}
+#container{
+  width:650px;
+  height:720px;
+  background: linear-gradient(#075c5a,#023433);
+  border-radius: 8px 8px 8px 8px;
+  border: 1px solid #d6ced6;
+  box-shadow: 0px 14px 30px -9px rgba(0,0,0,0.74);
+  margin: 20px auto;
+  overflow:hidden;
+  z-index:5;
+}
+.screen{
+ width:inherit; 
+ height:inherit;
+}
+
+#endScreen{
+  display:none;
+  position:absolute;
+  background-image: url("assets/tree-bark.png");
+  background-color:#f36620 ;
+  z-index:1;
+  border-radius: 8px 8px 8px 8px;
+  text-align:center;
+}
+#lostMessage{
+  padding-top: 80px;
+}
+#playAgain{
+  background-color: #bc4b4b;
+  color: #ffffff;
+  border: 2px solid #4CAF50;
+  /* width: 45px; */
+  width: 177px;
+  height: 82px;
+  margin-top: 47px;
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 23px;
+}
+#game{
+ padding:10px 10px; 
+ position:relative;
+ display:none;
+}                                           
+
+
+ #grid-container{
+  position:absolute;
+  bottom: 35px;
+  left:50px;
+  width: 540px;
+  height:540px;
+  background:transparent;
+}
+.field {
+  display:inline-block;
+  width:135px;
+  height:135px;
+  background: transparent;
+  border: 3px solid #d6ced6;
+  margin-right:-4px;
+  margin-bottom: -5px;
+  /* padding-top: 19px; */
+  overflow:hidden;
+  font-size: 56px;
+  line-height:2.4;
+  text-align:center;
+  /* font-family: 'Press Start 2P', cursive; */
+  /* font-family: 'Rubik Puddles', cursive; */
+  /* font-family: 'Rubik Bubbles', cursive; */
+  font-family: 'Skranji', cursive;
+  color:white;
+  transition: 0.5s;
+} 
